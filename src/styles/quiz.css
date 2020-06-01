@@ -1,0 +1,53 @@
+.quizbg{
+    height: 91vh;
+    width: 40vw;
+    background-position: -44vw 5vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 0 0 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-attachment: fixed;
+    /* overflow: hidden; */
+    /* text-indent: -50%; */
+}
+
+.quizarea{
+    width: 60vw;
+    height: 91vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.questionno{
+    color: rgb(0, 104, 240);
+}
+
+.optionsprops{
+    display: block;
+    text-decoration: none !important;
+    color: rgb(37, 37, 37);
+    opacity: 0.6;
+    transition: transform 0.5s;
+    outline: 0;
+}
+
+.optionsprops:hover{
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+
+.optionsprops:active {
+    vertical-align: top;
+    padding: 8px 13px 6px;
+}
+.selectedoptions{
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    background: rgb(160, 160, 160);
+}
+
+.normaloptions{
+    background: rgb(236, 236, 236);
+}

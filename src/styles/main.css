@@ -1,0 +1,5 @@
+.topbar{
+    height: 10%;
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(19, 33, 134));
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(230, 230, 230, 0.19);
+}
